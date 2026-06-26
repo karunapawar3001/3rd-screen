@@ -1,0 +1,209 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:"Poppins",sans-serif;
+}
+
+body{
+    background:#f4f4f4;
+    display:flex;
+    justify-content:center;
+    padding:20px;
+}
+
+.mobile{
+    width:390px;
+    background:#fff;
+    min-height:100vh;
+}
+
+/* Header */
+
+.header{
+    height:72px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:0 20px;
+    border-bottom:1px solid #ededed;
+}
+
+.left-side{
+    display:flex;
+    align-items:center;
+    gap:14px;
+}
+
+.logo{
+    width:86px;
+    height:36px;
+    border:1px solid #d7d7d7;
+    border-radius:3px;
+    background:#f3f3f3;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    font-size:10px;
+    color:#888;
+}
+
+.logo span{
+    font-size:9px;
+}
+
+.bell{
+    font-size:22px;
+}
+
+/* Hero */
+
+.hero{
+    background:#fafafa;
+    padding:20px;
+}
+
+.hero h1{
+    font-size:22px;
+    font-weight:600;
+    color:#303030;
+}
+
+.subtitle{
+    margin-top:6px;
+    color:#8a8a8a;
+    font-size:15px;
+}
+
+.works-title{
+    margin-top:26px;
+    display:flex;
+    align-items:center;
+    gap:10px;
+    font-size:18px;
+    font-weight:600;
+    color:#333;
+}
+
+.timeline{
+    margin-top:24px;
+}
+
+.step{
+    display:flex;
+    align-items:flex-start;
+    gap:16px;
+}
+
+.circle{
+    width:36px;
+    height:36px;
+    border-radius:50%;
+    background:#f5f5f5;
+    border:1px solid #e5e5e5;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-weight:600;
+    color:#222;
+    flex-shrink:0;
+}
+
+.content h3{
+    font-size:17px;
+    font-weight:600;
+    color:#222;
+}
+
+.content p{
+    font-size:14px;
+    color:#8b8b8b;
+}
+
+.line{
+    width:2px;
+    height:22px;
+    background:#dddddd;
+    margin-left:17px;
+    margin-top:2px;
+    margin-bottom:2px;
+}
+
+.copy-btn{
+    width:100%;
+    margin-top:26px;
+    height:48px;
+    border:none;
+    border-radius:4px;
+    background:#9d9d9d;
+    color:#fff;
+    font-size:20px;
+    font-weight:600;
+    cursor:pointer;
+}
+
+.terms{
+    display:block;
+    margin-top:18px;
+    text-align:center;
+    color:#444;
+    font-size:15px;
+    text-decoration:underline;
+}
+
+/* Invite */
+
+.invite-section{
+    padding:20px;
+}
+
+.invite-section h2{
+    font-size:18px;
+    font-weight:500;
+    margin-bottom:14px;
+    color:#333;
+}
+
+.invite-card{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:16px 0;
+    border-bottom:1px solid #e8e8e8;
+}
+
+.person{
+    display:flex;
+    align-items:center;
+    gap:12px;
+}
+
+.avatar{
+    width:48px;
+    height:48px;
+    border-radius:50%;
+    background:#cfcfcf;
+}
+
+.name{
+    font-size:16px;
+    font-weight:500;
+    color:#333;
+}
+
+.phone{
+    color:#8b8b8b;
+    font-size:14px;
+}
+
+.status{
+    width:26px;
+    height:26px;
+    border:2px solid #555;
+    border-radius:3px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    color:#555;
+}
